@@ -1,0 +1,23 @@
+{
+  "name": "programming-for-the-web",
+  "version": "1.0.0",
+  "description": "Programming for the Web, Spring 2022.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maggiedyslin/Programming-for-the-Web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maggiedyslin/Programming-for-the-Web/issues"
+  },
+  "homepage": "https://github.com/maggiedyslin/Programming-for-the-Web#readme",
+  "devDependencies": {
+    "eslint": "^8.7.0"
+  }
+}
