@@ -11,6 +11,4 @@ const gamesArr = [
 // console.log(gamesArr);
 const userNumber = window.prompt('I have 5 games in my collection. Pick a number between 1 and 5 and I will tell you some things about it.');
 
-// const randomIdx = Math.round(Math.random() * gamesArr.length - 1);
-
 console.log('Beautiful game! It is called ' + gamesArr[userNumber - 1].name + ', and it is played on the ' + gamesArr[userNumber - 1].console + '. You have ' + gamesArr[userNumber - 1].numberOfPlayers + ' player(s), and I give this game a rating of ' + gamesArr[userNumber - 1].rating + ' out of 5 stars.');
