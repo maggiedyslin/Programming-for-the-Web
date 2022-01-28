@@ -16,4 +16,3 @@ const userAnswer = window.prompt(questionArr[qIndex].question); // displaying qu
 // displaying the users answer & the correct answer to the question
 
 window.prompt("You have answered ".concat(userAnswer + '. The correct answer is ' + questionArr[qIndex].answer + '.'));
-// using concat with the window prompt - string "you have answered" paired with concat of the userAnswer & questionArr
