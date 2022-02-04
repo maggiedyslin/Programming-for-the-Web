@@ -5,16 +5,16 @@ function setup() {
 
 function squareTile() {
     translate(0, 0);
-    fill(60, 165, 207);
+    fill(232, 214, 255);
     noStroke();
     rect(0, 0, 200);
 
     // large circle
-    stroke('purple');
+    stroke(134, 0, 255);
     strokeWeight(8);
     circle(100, 100, 192);
 
-    fill('purple');
+    fill(134, 0, 255);
     noStroke();
     // x1, y1, x2, y2, x3, y3
     triangle(50, 75, 150, 75, 100, 160);
