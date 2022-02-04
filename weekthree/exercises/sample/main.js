@@ -1,5 +1,6 @@
 function setup() {
     createCanvas(200, 200);
+    noLoop();
 }
 
 function squareTile() {
@@ -19,6 +20,7 @@ function squareTile() {
     noFill();
     stroke('purple');
     strokeWeight(5);
+    circle(100, 100, 100);
 }
 
 function draw() {
