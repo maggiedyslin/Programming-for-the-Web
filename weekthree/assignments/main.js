@@ -1,4 +1,5 @@
 let submitAnswerButton;
+let submitRestart;
 let questionInput;
 let currentQuestion;
 
@@ -21,17 +22,15 @@ let statements = [
     {question: "During the tour, what sick animal does the group encounter?", 
     answer: "Triceratops"},
     {question: "Which character is climbing an electric fence when Ellie turns the power back on?", 
-    hint: "Grant, Lex, Tim",
+    hint: "Hint (Pick one): Grant, Lex, or Tim",
     answer: "Tim"},
     {question: "At the end of the movie, who saves Grant, Ellie, Lex, and Tim from the Velociraptors?", 
     answer: "Tyrannosaurous Rex"}
 ];
 
-
-
 function next() { // selecting a random item/question from the array
     if (statements.length < 1) {
-        alert('Jurassic Park Winner. Do you think you would survive?');
+        alert('Jurassic Park Winner. Do you think you would survive a trip to Jurassic Park?');
         return;
     }
     const randomIndex = Math.ceil(Math.random() * statements.length - 1);
@@ -55,8 +54,10 @@ function checkQuestion() {
         response = 'sorry, please try again';
         responseColor = 'red';
     }
+
     currentQuestion = next(); // calling the 'next' question
     questionInput.value('');
+    
     if (currentQuestion) {
         message = currentQuestion.question;
         messageHint = currentQuestion.hint;
