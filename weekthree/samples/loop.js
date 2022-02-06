@@ -32,11 +32,7 @@ const myNums = [1, 2, 3, 4, 5, 6];
 while (myNums.length > 0) {
     console.log('removing ' + myNums[myNums.length - 1]);
     myNums.pop(); // .pop removes things from the back of the array
-    // use splice to remove question for quiz
+    // use splice or filter to remove question for quiz
 }
 
 console.log(myNums);
-
-// forEach
-
-// map
