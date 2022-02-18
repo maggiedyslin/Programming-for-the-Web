@@ -63,9 +63,9 @@ function draw() {
 
     if(gameState.numMatched === gameState.totalPairs) {
         // if the number of matched = the total number of pairs, then do this
-        fill('yellow');
+        fill(255);
         textSize(66);
-        text("winner", 800, 400);
+        text("winner!", 775, 400);
         noLoop();
     }
 
