@@ -1,4 +1,19 @@
-h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+body {
+    background-color: rgb(65, 65, 65);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
 }
 
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #3483FF;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #E467DD;
+}
+
+img {
+    max-width: 35%;
+}
