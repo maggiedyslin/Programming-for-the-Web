@@ -1,0 +1,19 @@
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.light-mode {
+    background-color: white;
+    color: black;
+}
+
+li {
+    background-color: antiquewhite;
+    color: purple;
+}
+
+.non-creature {
+    background-color: blanchedalmond;
+    color: black;
+}
