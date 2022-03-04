@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise One</title>
+
+    <link rel="stylesheet" href="main.css">
+
+    <script src="https://unpkg.com/vue@3"></script>
+</head>
+<body>
+
+    <div id="llamaPalooza" v-cloak>
+
+        <h1 :class="{llamaVsAlpaca: llamaMode}">Llama vs. Alpaca, head-to-head comparisons</h1>
+
+            <h2 :style="llamaHeading">Llamas</h2>
+
+                <p><a :href="theLlamaLink">Llama Wiki</a></p>
+                
+                <ul>
+                    <li v-for="(name, value) in llamaComparison">{{value}}: {{name}}</li>
+                </ul>
+
+            <h2 :style="alpacaHeading">Alpacas</h2>
+
+                <p><a :href="theAlpacaLink">Alpaca Wiki</a></p>
+
+                <ul>
+                    <li v-for="(name, value) in alpacaComparison">{{value}}: {{name}}</li>
+                </ul>
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
