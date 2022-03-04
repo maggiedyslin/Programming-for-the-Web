@@ -28,18 +28,24 @@
 
         </div>
 
-        <div v-for="(llama, name) in llamas">
+        <div
+          v-for="(llama, index) in llamas"
+          :class="{even:(index + 1) % 2 === 0, 
+            odd:(index + 1) % 2 !== 0}"
+        >
 
           <div class="llama-rank">
 
-            {{llama.rank}}
+            <p>{{llama.rank}}</p>
 
           </div>
 
           <div class="llama-name">
 
-            {{llama.name}}
-            
+            <p
+              :class="{specialLlama: llama.name.toLowerCase().includes('llama')}"
+            >{{llama.name}}</p>
+
           </div>
 
         </div>

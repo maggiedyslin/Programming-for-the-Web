@@ -3,7 +3,7 @@
 }
 
 html {
-  font-family: Verdana, Geneva, "DejaVu Sans", sans-serif
+  font-family: Verdana, Geneva, "DejaVu Sans", sans-serif;
 }
 
 .llama-list-title {
@@ -29,4 +29,18 @@ html {
   width: 45%;
   /* border: 1px solid black; */
   text-align: center;
+  /* margin: 2px 0; */
+}
+
+.odd {
+  background-color:#DDAAF1;
+}
+
+.even {
+  background-color: #9DAAF1;
+}
+
+.specialLlama {
+  color: white;
+  font-weight: bold;
 }
