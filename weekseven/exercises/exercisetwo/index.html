@@ -2,26 +2,51 @@
 
 <html>
 
-<head>
-  <title>Llamas</title>
-  <link rel="stylesheet" href="styles.css">
-  <script src="https://unpkg.com/vue@3"></script>
-</head>
+  <head>
 
-<body>
-  <div id="llama-list">
-    <h1 class="llama-list-title">What to name your next llama</h1>
-    <div class="list-container">
-      <div class="list-head">
-        <span class="rank">Rank</span>
-        <span class="name">Name</span>
-      </div>
+    <title>Llamas</title>
 
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/vue@3"></script>
+    
+  </head>
+
+  <body>
+
+    <div id="llama-list" v-cloak>
+
+      <h1 class="llama-list-title">What to name your next llama</h1>
+
+        <div class="list-container">
+
+          <div class="list-head">
+
+            <span class="rank">Rank</span>
+            <span class="name">Name</span>
+
+          </div>
+
+        </div>
+
+        <div v-for="(llama, name) in llamas">
+
+          <div class="llama-rank">
+
+            {{llama.rank}}
+
+          </div>
+
+          <div class="llama-name">
+
+            {{llama.name}}
+            
+          </div>
+
+        </div>
+      
     </div>
-    <p>{{llamas[0]}}</p>
-  </div>
 
-  <script src="main.js"></script>
-</body>
+    <script src="main.js"></script>
+  </body>
 
 </html>
