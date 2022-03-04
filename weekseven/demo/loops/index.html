@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loop-De-Doop</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+</head>
+<body>
+
+    <div id="app" v-cloak>
+        <ul>
+            <!-- num is loop variable -->
+            <li v-for="num in myNumbers">{{num}}</li>
+        </ul>
+
+        <!-- loop variable can be named anything you want it to be named -->
+        <div class="animal-container" v-for="(outside, index) in animals">
+            <div><h2>{{index}}</h2></div>
+            <div>{{outside.name}}</div>
+            <div>{{outside.color}}</div>
+        </div>
+
+        <div v-for="(prop, key) in myDog">
+            {{key}}: {{prop}}
+        </div>
+
+    </div>
+
+
+
+    <script src="main.js"></script>
+    
+</body>
+</html>

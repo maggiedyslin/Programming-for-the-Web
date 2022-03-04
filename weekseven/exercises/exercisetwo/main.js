@@ -45,6 +45,7 @@ const llamaArray = [{
   rank: 15,
   name: "Llamabogini"
 }];
+
 Vue.createApp({
   data() {
     return {
