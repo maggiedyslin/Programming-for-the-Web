@@ -104,7 +104,7 @@ let vm = new Vue({
                 console: "PlayStation 4, Xbox One",
                 rating: "7/10",
                 players: "1",
-                description: "Jurassic World Evolution is a business simulation game that allows the player to construct a Jurassic World dinosaur theme park with attractions and research facilities. Players must build an Expedition Center, which sends paleontologists to fossil dig sites to obtain dinosaurs' DNA material. DNA sequencing, which can be done in the Fossil Center unlocks new dinosaurs and updates their statistics, such as lifespan and resilience. With enough DNA content, players can use the Hammond Creation Lab to breed and incubate dinosaurs. Players can also improve the dinosaurs' genes by integrating DNA from modern species with that of the dinosaurs to fill their gaps and allow them to evolve. Modifications to the dinosaurs' DNA change their base statistics, as well as everything from their level of aggressiveness to their appearance. The game features a terrain tool which allows players to modify the environment by planting trees and creating water sources."
+                description: "Jurassic World Evolution is a business simulation game that allows the player to construct a Jurassic World dinosaur theme park with attractions and research facilities. Players must build an Expedition Center, which sends paleontologists to fossil dig sites to obtain dinosaurs' DNA material. DNA sequencing, which can be done in the Fossil Center unlocks new dinosaurs and updates their statistics, such as lifespan and resilience. With enough DNA content, players can use the Hammond Creation Lab to breed and incubate dinosaurs."
             },
             {
                 image: './assets/Mario-Party.jpeg',
@@ -113,7 +113,7 @@ let vm = new Vue({
                 console: "Nintendo GameCube",
                 rating: "10/10",
                 players: "Up to 4",
-                description: "Mario Party 4 is based on an interactive board game played by 4 characters from the Mario series, which are controlled either by the player or the game's Artificial Intelligence (AI). The game features 8 playable characters, although they do not have any different gameplay attributes from each other (save for favouring certain items when controlled by the AI). Players can arrange their characters into opposing pairs, or play independently in a battle royale. As with most board games, each participant takes turns in rolling a dice block (1 to 10) to determine the number of spaces moved on the board. A minigame follows each round of four turns, which yields a coin prize for the winner."
+                description: "Mario Party 4 is based on an interactive board game played by 4 characters from the Mario series, which are controlled either by the player or the game's Artificial Intelligence (AI). The game features 8 playable characters, although they do not have any different gameplay attributes from each other (save for favouring certain items when controlled by the AI)."
             },
             {
                 image: './assets/Diddy-Kong-Racing.jpeg',
@@ -140,7 +140,7 @@ let vm = new Vue({
                 console: "PlayStation 3, PlayStation 4, Xbox 360, Xbox One, Nintendo Switch, PC, and MAC",
                 rating: "10/10",
                 players: "1",
-                description: "BioShock takes place in Rapture, a large underwater city planned and constructed in the 1940s by individualist business magnate Andrew Ryan, who wanted to create a utopia for society's elite to flourish outside of government control and 'petty morality'. This philosophy resulted in remarkable advances in the arts and sciences, which included the discovery of 'ADAM': a potent gene-altering substance which is created by a species of sea slug on the ocean floor. ADAM soon led to the creation of 'Plasmids', mutagenic serums that grant users super-human powers like telekinesis and pyrokinesis. To protect and isolate Rapture, Ryan outlawed any contact with the surface world."
+                description: "BioShock takes place in Rapture, a large underwater city planned and constructed in the 1940s by individualist business magnate Andrew Ryan, who wanted to create a utopia for society's elite to flourish outside of government control and 'petty morality'. The discovery of 'ADAM' soon led to the creation of 'Plasmids', mutagenic serums that grant users super-human powers like telekinesis and pyrokinesis. To protect and isolate Rapture, Ryan outlawed any contact with the surface world."
             },
             {
                 image: './assets/Snowboard-Kids.jpeg',
@@ -185,7 +185,7 @@ let vm = new Vue({
                 console: "Nintendo 3DS, Nintendo WiiU, Nintendo Switch, PlayStation 3, PlayStation 4, Xbox One, and PC",
                 rating: "10/10",
                 players: "",
-                description: "Puyo Puyo Tetris centers around the combination of two main gameplay styles, Puyo and Tetris. In the Puyo Puyo style, colored blobs known as Puyos will fall from the top of the screen and can be rotated before being placed down. The Puyos can be popped by matching four and more of the same color next to each other. The Tetris style, on the other hand, has players placing shaped blocks known as Tetriminoes down on the playing field. Successfully filling a complete horizontal line of blocks on the field will make it disappear, and additional points can be earned clearing multiple lines at once."
+                description: "Puyo Puyo Tetris centers around the combination of two main gameplay styles, Puyo and Tetris. In the Puyo Puyo style, colored blobs known as Puyos will fall from the top of the screen and can be rotated before being placed down. The Tetris style, on the other hand, has players placing shaped blocks known as Tetriminoes down on the playing field."
             }
         ]
     }
