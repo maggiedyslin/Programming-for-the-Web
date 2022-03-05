@@ -1,3 +1,45 @@
+body {
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+thead {
+    font-size: 18px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+thead, th, tbody, tr, td {
+    text-align: center;
+    padding: 5px 8px;
+    border: 0 none;
+}
+
 .odd {
     background: grey;
+}
+
+img {
+    max-width: 100%;
+}
+
+.rating {
+    background-color: rgb(71, 71, 71);
+}
+
+.top {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.main img {
+    width: 20%;
 }
