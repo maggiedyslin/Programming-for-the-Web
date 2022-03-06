@@ -17,62 +17,65 @@
 
     <body>
 
-        <div class="main">
+        <div class="container">
 
-            <h1 id="top">Games Collection Ratings</h1>
+            <div class="main">
 
-            <img class="main" src="./assets/Luigi-Yoshi-Mario.jpg" alt="Luigi, Yoshi and Mario">
+                <h1 id="top">Game Collection Ratings*</h1>
+    
+                <img class="main" src="./assets/Luigi-Yoshi-Mario.jpg" alt="Luigi, Yoshi and Mario">
 
-            <p>My older brother introduced me to gaming when I was just a kid; he is sixteen years older than me, so he had quite the head start. He started with the Nintendo Entertainment System, while I started with the Super Nintendo Entertainment System. I played both growing up, trying endlessly to beat my brothers high-scores or to get to a further level than him; eventually, I would be introduced to various other gaming consoles, such as the Nintendo 64 (my absolute favorite), the Nintendo GameCube and eventually the PlayStation. I eventually stopped playing video games in high school, only to pick them up again two years after I had graduated.</p>
-            
-            <p>Below is a list of game in my collections that I've played over the years. It consists of an image from the game, release date, what console(s) it is playable on, my own personal rating of the game, the amount of players, and a description. These are not all the games I have collected over the years &#8212; for creating a list that large would take <em>forever.</em></p>
-
-        </div>
-
-        <div id="myCollection">
-
-            <table>
-
-                <thead>
-
-                    <th>Image</th>
-                    <th>Name</th>
-                    <th>Release Date</th>
-                    <th>Console(s)</th>
-                    <th>Rating</th>
-                    <th>Players</th>
-                    <th>Description</th>
-
-                </thead>
-
-                <tbody>
-
-                    <!-- loops for each item in our array, the v-for="games in gameCollection" -->
-                    <!-- the first argument (games) can be named anything, as long as it matches what you are using (games -> {{games.names}}), even if it is wrapped in parenthesis (seen below); first thing is the 'item' in the array -->
-                    <!-- second argument (index) is what refers to the index number of array, this can also be named whatever you want it to be named -->
-                    <tr 
-                        v-for="(games, index) in gameCollection"
-                        :class="{odd: index % 2 !== 0 + 1,
-                                 rating: games.rating === '10/10'}"
-                    >
-                        <td :style="imageStyle"><img v-bind:src="games.image" v-bind:alt="games.name"></td>
-                        <td :style="nameStyle">{{games.name}}</td>
-                        <td :style="releaseDate">{{games.released}}</td>
-                        <td>{{games.console}}</td>
-                        <td>{{games.rating}}</td>
-                        <td>{{games.players}}</td>
-                        <td :style="descriptionStyle">{{games.description}}</td>
-                    </tr>
-
-                </tbody>
-
-            </table>
-
-        </div>
-
-        <div class="footer">
-
-            <p><a href="#top">Back to top</a></p>
+                <p><strong>Bold</strong> is a 10/10 score.</p>
+                <p>*This is not a full list.</p>
+    
+            </div>
+    
+            <div id="myCollection">
+    
+                <table>
+    
+                    <thead>
+    
+                        <th>Image</th>
+                        <th>Name</th>
+                        <th>Release Date</th>
+                        <th>Console(s)</th>
+                        <th>Rating</th>
+                        <th>Players</th>
+                        <th>Description</th>
+    
+                    </thead>
+    
+                    <tbody>
+    
+                        <!-- loops for each item in our array, the v-for="games in gameCollection" -->
+                        <!-- the first argument (games) can be named anything, as long as it matches what you are using (games -> {{games.names}}), even if it is wrapped in parenthesis (seen below); first thing is the 'item' in the array -->
+                        <!-- second argument (index) is what refers to the index number of array, this can also be named whatever you want it to be named -->
+                        <tr 
+                            v-for="(games, index) in gameCollection"
+                            :class="{odd: index % 2 !== 0 + 1,
+                                     rating: games.rating === '10/10'}"
+                        >
+                            <td :style="imageStyle"><img v-bind:src="games.image" v-bind:alt="games.name"></td>
+                            <td :style="nameStyle">{{games.name}}</td>
+                            <td :style="releaseDate">{{games.released}}</td>
+                            <td>{{games.console}}</td>
+                            <td>{{games.rating}}</td>
+                            <td>{{games.players}}</td>
+                            <td :style="descriptionStyle">{{games.description}}</td>
+                        </tr>
+    
+                    </tbody>
+    
+                </table>
+    
+            </div>
+    
+            <div class="footer">
+    
+                <p><a href="#top">Back to top</a></p>
+    
+            </div>
 
         </div>
 
