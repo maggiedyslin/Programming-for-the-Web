@@ -1,6 +1,10 @@
+body {
+    background-color: rgb(230, 230, 230);
+}
+
 form {
     width: 100%;
-    max-width: 450px;
+    max-width: 500px;
     margin: 0 auto;
 }
 
@@ -21,6 +25,11 @@ div label {
 
 div input, div select {
     flex-grow: 1;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+textarea {
+    font-family: 'Times New Roman', Times, serif;
 }
 
 ul {
@@ -31,4 +40,30 @@ ul {
 
 li {
     margin: 5px 0;
+}
+
+div.alpaca-color-options {
+    margin: 0;
+    padding: 0;
+}
+
+legend {
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div.output {
+    font-family:Verdana, Tahoma, sans-serif;
+    font-size: 13px;
+}
+
+div.output h3 {
+    font-size: 20px;
+}
+
+div.alpaca-color h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    border-bottom: 2px solid orange;
 }
