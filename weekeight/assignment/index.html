@@ -11,8 +11,7 @@
 
         <title>Game Collection Rating</title>
 
-        <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
-
+        <script src="https://unpkg.com/vue@3"></script>
     </head>
 
     <body>
@@ -70,6 +69,64 @@
                 </table>
     
             </div>
+
+            <form>
+                
+                <fieldset v-on: submit="tbdFunc">
+
+                    <legend>Add your own game!</legend>
+
+                    <div>
+
+                        <label for="image">Image from Game (url)</label>
+                        <input id="image" type="text"
+                            v-model="newGameObj.image">
+
+                    </div>
+
+                    <div>
+
+                        <label for="name">Name of Game</label>
+                        <input id="name" type="text"
+                            v-model="newGameObj.name">
+
+                    </div>
+
+                    <div>
+
+                        <label for="releaseDate">Date Released</label>
+                        <input id="releaseDate" type="date"
+                            v-model="newGameObj.releaseDate">
+
+                    </div>
+
+                    <div>
+
+                        <label for="consoleReleased">Console Released</label>
+                        <input id="consoleReleased" type="checkbox"
+                            v-model="newGameObj.console">
+
+                    </div>
+
+                    <div>
+
+                        <label for="numberOfPlayers">Number of Players</label>
+                        <input id="numberOfPlayers" type="number"
+                            v-model="newGameObj.players">
+
+                    </div>
+
+                    <div>
+
+                        <label for="descriptionOfGame">Game Description</label>
+                        <input id="descriptionOfGame" type="text"
+                            v-model="newGameObj.description">
+
+                    </div>
+
+                </fieldset>
+
+            </form>
     
             <div class="footer">
     
