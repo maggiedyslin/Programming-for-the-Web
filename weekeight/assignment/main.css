@@ -97,15 +97,18 @@ a:hover {
     font-size: 18px;
     font-weight: bold;
     text-align: center;
+    padding-top: 20px;
 }
 
 /* form related */
 
 form {
-    padding-top: 15px;
+    padding-top: 20px;
+    width: 50%;
+    margin: 0 auto;
 }
 
 legend {
-    font-size: 25px;
+    font-size: 30px;
     font-family: 'Courier New', Courier, monospace;
 }

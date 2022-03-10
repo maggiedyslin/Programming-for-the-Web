@@ -1,4 +1,4 @@
-myGames = [
+const myGames = [
     {
         image: "./assets/SimCity.jpeg",
         name: "Sim City",
@@ -212,7 +212,22 @@ Vue.createApp({
                 description: this.newGameDescription
             };
             this.gameCollection.push(newGameObj);
+            this.newGameImage = "";
+            this.newGameName = "";
+            this.newGameReleased = "";
+            this.newGameConsole = "";
+            this.newGameRating = "";
+            this.newGamePlayers = "";
+            this.newGameDescription = "";
         },
-        // handleDelete(item)
+        isValid() { // this always stops at the false one
+            return this.newGameImage && this.newGameName && this.newGameReleased && this.newGameConsole && this.newGameRating && this.newGamePlayers && this.newGameDescription;
+        },
+        handleDelete(item) {
+            this.gameCollection = this.gameCollection.filter(gameCollection => {
+                // check for condition & keep what returns false; does gamesCollection = item ?
+                return gameCollection !== item;
+            })
+        }
     }
 }).mount('#myCollection')
