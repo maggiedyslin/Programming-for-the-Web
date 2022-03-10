@@ -67,66 +67,69 @@
                     </tbody>
     
                 </table>
+
+                <form v-on:submit.prevent="handleSubmit">
+
+                    <fieldset>
+                        <legend>Add your own game</legend>
+    
+                        <div>
+    
+                            <label for="gameImage">Image from Game (url)</label>
+                            <input v-model="newGameImage" id="gameImage" type="text">
+    
+                        </div>
+    
+                        <div>
+    
+                            <label for="gameName">Game Name</label>
+                            <input v-model="newGameName" id="gameName" type="text">
+    
+                        </div>
+    
+                        <div>
+    
+                            <label for="gameReleased">Game Release Date</label>
+                            <input v-model="newGameReleased" id="gameReleased" type="date">
+                            
+                        </div>
+    
+                        <div>
+    
+                            <label for="gameConsole">Console(s) Released On</label>
+                            <input v-model="newGameConsole" id="gameConsole" type="checkbox">
+    
+                        </div>
+    
+                        <div>
+    
+                            <label for="gameRating">Your Rating (out of 10)</label>
+                            <input v-model="newGameRating" id="gameRating" type="text">
+    
+                        </div>
+    
+                        <div>
+    
+                            <label for="gamePlayers">Number of Players</label>
+                            <input v-model="newGamePlayers" id="gamePlayers" type="text">
+    
+                        </div>
+    
+                        <div>
+    
+                            <label for="gameDescription">Game Description</label>
+                            <input v-model="newGameDescription" id="gameDescription" type="text">
+    
+                        </div>
+    
+                        <button type="submit">Submit Game</button>
+    
+                    </fieldset>
+    
+                </form>
     
             </div>
 
-            <form>
-                
-                <fieldset v-on: submit="tbdFunc">
-
-                    <legend>Add your own game!</legend>
-
-                    <div>
-
-                        <label for="image">Image from Game (url)</label>
-                        <input id="image" type="text"
-                            v-model="newGameObj.image">
-
-                    </div>
-
-                    <div>
-
-                        <label for="name">Name of Game</label>
-                        <input id="name" type="text"
-                            v-model="newGameObj.name">
-
-                    </div>
-
-                    <div>
-
-                        <label for="releaseDate">Date Released</label>
-                        <input id="releaseDate" type="date"
-                            v-model="newGameObj.releaseDate">
-
-                    </div>
-
-                    <div>
-
-                        <label for="consoleReleased">Console Released</label>
-                        <input id="consoleReleased" type="checkbox"
-                            v-model="newGameObj.console">
-
-                    </div>
-
-                    <div>
-
-                        <label for="numberOfPlayers">Number of Players</label>
-                        <input id="numberOfPlayers" type="number"
-                            v-model="newGameObj.players">
-
-                    </div>
-
-                    <div>
-
-                        <label for="descriptionOfGame">Game Description</label>
-                        <input id="descriptionOfGame" type="text"
-                            v-model="newGameObj.description">
-
-                    </div>
-
-                </fieldset>
-
-            </form>
     
             <div class="footer">
     
