@@ -1,0 +1,100 @@
+body {
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(187, 187, 187);
+}
+
+/* main div */
+
+.main {
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main img {
+    max-width: 45%;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    font-size: 45px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+/* myCollection div */
+
+.container {
+    margin: 0 auto;
+    display: block;
+    max-width: 95%;
+}
+
+#myCollection table {
+    border-collapse: collapse;
+    background-color: #A4E384;
+}
+
+#myCollection thead {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px 8px;
+    color: rgb(240, 240, 240);
+    position: sticky;
+    top: 0;
+    background-color: #F57784;
+    border: none;
+}
+
+#myCollection th, #myCollection tbody, #myCollection tr, #myCollection td {
+    text-align: center;
+    padding: 5px 8px;
+    border: 1px solid black;
+}
+
+.odd {
+    background-color: #70B1F8;
+}
+
+img {
+    max-width: 100%;
+}
+
+.rating {
+    /* background-color: #E6A270; */
+    font-weight: bold;
+}
+
+/* links */
+
+a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #115503;
+}
+
+a:hover {
+    text-transform: lowercase;
+    text-decoration: none;
+    background-color: #115503;
+    color: white;
+}
+
+/* footer div */
+
+.footer {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
