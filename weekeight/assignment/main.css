@@ -1,0 +1,33 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#calcApp {
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+form {
+    text-align: center;
+}
+
+input, select {
+    margin-top: 5px;
+}
+
+legend {
+    font-size: 50px;
+}
+
+input {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+select {
+    width: 100px;
+}
+
+#calculatorButton {
+    margin-top: 20px;
+}
