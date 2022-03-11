@@ -62,11 +62,71 @@
                             <td>{{games.rating}}</td>
                             <td>{{games.players}}</td>
                             <td :style="descriptionStyle">{{games.description}}</td>
+                            <td><button type="button" v-on:click="handleDelete(gameCollections)">Delete</button></td>
                         </tr>
     
                     </tbody>
     
                 </table>
+
+                <form v-on:submit.prevent="handleSubmit">
+                    <fieldset>
+                        <legend>Your Game Collection</legend>
+
+                        <div>
+
+                            <label for="newImage">Image of Game </label><br>
+                            <input v-model="newGameImage" id="newImage" type="text">
+
+                        </div>
+
+                        <div>
+
+                            <label for="newName">Name of Game</label><br>
+                            <input v-model="newGameName" id="newName" type="text">
+
+                        </div>
+
+                        <div>
+
+                            <label for="newRelease">Release Date</label><br>
+                            <input v-model="newGameRelease" id="newRelease" type="text">
+
+                        </div>
+
+                        <div>
+
+                            <label for="newConsole">Console</label><br>
+                            <input v-model="newGameConsole" id="newConsole" type="text">
+
+                        </div>
+
+                        <div>
+
+                            <label for="newRating">Your Rating</label><br>
+                            <input v-model="newGameRating" id="newRating" type="text">
+
+                        </div>
+
+                        <div>
+
+                            <label for="newPlayer">Players</label><br>
+                            <input v-model="newGamePlayer" id="newPlayer" type="text">
+
+                        </div>
+
+                        <div>
+
+                            <label for="newDescription">Description</label><br>
+                            <input v-model="newGameDescription" id="newDescription" type="text">
+
+                        </div>
+                        
+                    </fieldset>
+
+                    <button type="submit" :disabled="!isValid()">Submit Game</button>
+
+                </form>
     
             <div class="footer">
     

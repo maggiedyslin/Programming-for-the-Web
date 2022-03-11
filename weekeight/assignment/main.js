@@ -191,6 +191,45 @@ Vue.createApp({
                 width: "11%"
             },
             gameCollection: myGames,
+            newGameImage: "",
+            newGameName: "",
+            newGameRelease: "",
+            newGameConsole: "",
+            newGameRating: "",
+            newGamePlayer: "",
+            newGameDescription: ""
         }
     },
+    methods: {
+        handleSubmit() {
+            const newGameObj = {
+                image: this.newGameImage,
+                name: this.newGameName,
+                released: this.newGameRelease,
+                console: this.newGameConsole,
+                rating: this.newGameRating,
+                players: this.newGamePlayer,
+                description: this.newGameDescription
+            };
+            this.gameCollection.push(newGameObj);
+            this.newGameImage = "";
+            this.newGameName = "";
+            this.newGameRelease = "";
+            this.newGameConsole = "";
+            this.newGameRating = "";
+            this.newGamePlayer = "";
+            this.newGameDescription = "";
+        },
+        isValid() {
+            // if that first string comes back as false, it will come back as a falsey situation
+            // all of these need to be true (filled) in order for submit to work
+            return this.newGameImage && this.newGameName && this.newGameRelease && this.newGameConsole && this.newGameRating && this.newGamePlayer && this.newGameDescription;
+        },
+        handleDelete(item) {
+            this.gameCollection = this.gameCollection.filter(gameCollections => {
+                // checking for condition and keeping what returns false
+                return gameCollections !== item;
+            });
+        }
+    }
 }).mount('#myCollection')
