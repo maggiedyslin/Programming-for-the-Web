@@ -191,43 +191,6 @@ Vue.createApp({
                 width: "11%"
             },
             gameCollection: myGames,
-            newGameImage: "",
-            newGameNames: "",
-            newGameReleased: null,
-            newGameConsole: "PlayStation 1",
-            newGameRating: "",
-            newGamePlayers: "",
-            newGameDescription: ""
         }
     },
-    methods: {
-        handleSubmit() {
-            const newGameObj = {
-                name: this.newGameImage,
-                image: this.newGameNames,
-                released: this.newGameReleased,
-                console: this.newGameConsole,
-                rating: this.newGameRating,
-                players: this.newGamePlayers,
-                description: this.newGameDescription
-            };
-            this.gameCollection.push(newGameObj);
-            this.newGameImage = "";
-            this.newGameNames = "";
-            this.newGameReleased = null;
-            this.newGameConsole = "PlayStation 1";
-            this.newGameRating = "";
-            this.newGamePlayers = "";
-            this.newGameDescription = "";
-        },
-        isValid() { // this always stops at the false one
-            return this.newImage && this.newGameNames && this.newGameReleased && this.newGameConsole && this.newGameRating && this.newGamePlayers && this.newGameDescription;
-        },
-        handleDelete(item) {
-            this.gameCollection = this.gameCollection.filter(gameCollections => {
-                // check for condition & keep what returns false; does gamesCollection = item ?
-                return gameCollections !== item;
-            })
-        }
-    }
 }).mount('#myCollection')
