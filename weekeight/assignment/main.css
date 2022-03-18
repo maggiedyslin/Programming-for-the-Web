@@ -104,13 +104,17 @@ a:hover {
 
 form {
     padding-top: 20px;
-    width: 50%;
+    width: 40%;
     margin: 0 auto;
 }
 
 legend {
     font-size: 30px;
     font-family: 'Courier New', Courier, monospace;
+}
+
+label {
+    font-weight: bold;
 }
 
 #gameConsole {
@@ -125,21 +129,6 @@ h3 {
     font-size: 15px;
 }
 
-label#gameImage, 
-label#gameName, 
-label#gameReleased, 
-label#gameRating, 
-label#gamePlayers, 
-label#gameDescription {
-    font-size: 15px;
-    font-weight: bold;
-}
-
-input#gameImage, 
-input#gameName, 
-input#gameReleased, 
-input#gameRating, 
-input#gamePlayers, 
-textarea#gameDescription {
-    width: 100%;
+input {
+    width: 50%;
 }

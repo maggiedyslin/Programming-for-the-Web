@@ -62,7 +62,7 @@
                             <td>{{games.rating}}</td>
                             <td>{{games.players}}</td>
                             <td :style="descriptionStyle">{{games.description}}</td>
-                            <td><button type="button" v-on:click="handleDelete(gameCollections)">Delete</button></td>
+                            <td><button type="button" v-on:click="handleDelete(games)">Delete</button></td>
                         </tr>
     
                     </tbody>
@@ -72,6 +72,8 @@
                 <form v-on:submit.prevent="handleSubmit">
                     <fieldset>
                         <legend>Your Game Collection</legend>
+
+                        <p>Insert your own game by filling out the complete form. The rating should be out of ten - for example, 5/10. Please include a direct URL link to the image of your game.</p>
 
                         <div>
 
@@ -118,7 +120,8 @@
                         <div>
 
                             <label for="newDescription">Description</label><br>
-                            <input v-model="newGameDescription" id="newDescription" type="text">
+                            <textarea name="" id="newDescription" 
+                                cols="30" rows="8" v-model="newGameDescription"></textarea>
 
                         </div>
                         
