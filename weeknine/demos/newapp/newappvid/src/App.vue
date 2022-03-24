@@ -1,9 +1,11 @@
 <script setup>
 
+  import {reactive} from "vue";
+
   import AnimalRow from '/src/components/AnimalRow.vue';
 
   const isWorking = true;
-  const animals = [
+let animals = [
     {
       name: "Cat",
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Cat_poster_1.jpg/2880px-Cat_poster_1.jpg",
@@ -34,7 +36,15 @@
       caption: "W is for Wolf",
       id: 4
     }
-  ]
+  ];
+
+  const state = reactive({animals});
+
+  function handleRowDelete(animal) {
+    state.animals = state.animals.filter(item => {
+      return item !== animal;
+    });
+  }
 
 </script>
 
@@ -44,7 +54,12 @@
 
   <h1>Animal *sort of* Alphabet</h1>
     
-  <AnimalRow v-for="animal in animals" :key="animal.id" :animal="animal" />
+  <AnimalRow 
+    v-for="animal in state.animals" 
+    :key="animal.id" 
+    :animal="animal" 
+    v-on:delete-row="handleRowDelete"
+   />
 
 </div>
 

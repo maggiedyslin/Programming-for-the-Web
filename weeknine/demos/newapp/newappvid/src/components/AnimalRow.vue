@@ -1,7 +1,11 @@
 <script setup>
 
     const props = defineProps(["animal"]);
-    console.log(props.animal);
+    // console.log(props.animal);
+
+    const triggerConsole = (animal) => {
+        console.log("you clicked on", animal.name);
+    }
 
 </script>
 
@@ -10,8 +14,9 @@
     <div class="animal-row">
 
         <h5>{{props.animal.name}}</h5>
-        <img :src="props.animal.image" :alt="props.animal.caption">
+        <img :src="props.animal.image" :alt="props.animal.caption" />
         <p>{{props.animal.caption}}</p>
+        <button type="button" v-on:click="$emit('deleteRow', props.animal)">Delete</button>
 
     </div>
 
