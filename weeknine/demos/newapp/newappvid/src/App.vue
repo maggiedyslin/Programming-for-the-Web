@@ -1,5 +1,7 @@
 <script setup>
 
+  import AnimalRow from '/src/components/AnimalRow.vue';
+
   const isWorking = true;
   const animals = [
     {
@@ -42,13 +44,7 @@
 
   <h1>Animal *sort of* Alphabet</h1>
     
-  <div v-for="animal in animals" :key="animal.id" class="animal-row">
-
-    <h5>{{animal.name}}</h5>
-    <img :src="animal.image" :alt="animal.caption">
-    <p>{{animal.caption}}</p>
-
-  </div>
+  <AnimalRow v-for="animal in animals" :key="animal.id" :animal="animal" />
 
 </div>
 
@@ -56,24 +52,20 @@
 
 <style>
 
-.container {
-  width: 600px;
-  margin: 20px auto 0;
-  font-size: 18px;
-}
+    body {
+    background-color: darkgrey;
+    }
 
-h1 {
-  font-size: 40px;
-  text-align: center;
-}
+    h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    }
 
-h5 {
-  font-size: 25px;
-}
-
-.animal-row img {
-  max-width: 450px;
-  display: block;
-}
+    .container {
+    width: 600px;
+    margin: 20px auto 0;
+    font-size: 18px;
+    }
 
 </style>
