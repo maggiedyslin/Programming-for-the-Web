@@ -3,7 +3,7 @@
   import ItemRow from './components/ItemRow.vue';
 
   const gameCollection = [{
-        image: "../src/assets/SimCity.jpeg",
+        image: "/assets/SimCity.jpeg",
         name: "Sim City",
         released: "February 2, 1989",
         console: "Super Nintendo Entertainment System",
@@ -13,7 +13,7 @@
         id: 1
     },
     {
-        image: "../src/assets/Kirby-Dream-Course.jpeg",
+        image: "/assets/Kirby-Dream-Course.jpeg",
         name: "Kirby's Dream Course",
         released: "September 21, 1994",
         console: "Super Nintendo Entertainment System",
@@ -23,7 +23,7 @@
         id: 2
     },
     {
-        image: "../src/assets/Diddy-Kong-Racing.jpeg",
+        image: "/assets/Diddy-Kong-Racing.jpeg",
         name: "Diddy Kong Racing",
         released: "October 31, 1997",
         console: "Nintendo 64, Nintendo DS",
@@ -33,7 +33,7 @@
         id: 3
     },
     {
-        image: "../src/assets/Snowboard-Kids.jpeg",
+        image: "/assets/Snowboard-Kids.jpeg",
         name: "Snowboard Kids",
         released: "December 12, 1997",
         console: "Nintendo 64",
@@ -43,7 +43,7 @@
         id: 4
     },
     {
-        image: "../src/assets/Zelda-Ocarina.jpeg",
+        image: "/assets/Zelda-Ocarina.jpeg",
         name: "The Legend of Zelda: Ocarina of Time",
         released: "November 21, 1998",
         console: "Nintendo 64, Nintendo GameCube, and Nintendo 3DS",
@@ -53,7 +53,7 @@
         id: 5
     },
     {
-        image: "../src/assets/Star-Wars.png",
+        image: "/assets/Star-Wars.png",
         name: "Star Wars Episode One: Racer",
         released: "April 30, 1999",
         console: "Nintendo 64, Nintendo GameBoy Color, Nintendo Switch, Dreamcast, PlayStation 4, Xbox One, PC, and MAC",
@@ -63,7 +63,7 @@
         id: 6
     },
     {
-        image: "../src/assets/Pokemon-Gold.webp",
+        image: "/assets/Pokemon-Gold.webp",
         name: "Pokemon Gold",
         released: "November 21, 1999",
         console: "Gameboy Color",
@@ -73,7 +73,7 @@
         id: 7
     },
     {
-        image: "../src/assets/Final-Fantasy-X.jpeg",
+        image: "/assets/Final-Fantasy-X.jpeg",
         name: "Final Fantasy X",
         released: "July 19, 2001",
         console: "PlayStation 2, PlayStation 3, PlayStation 4, and PlayStation Vita",
@@ -83,7 +83,7 @@
         id: 8
     },
     {
-        image: "../src/assets/Mario-Party.jpeg",
+        image: "/assets/Mario-Party.jpeg",
         name: "Mario Party 4",
         released: "October 21, 2002",
         console: "Nintendo GameCube",
@@ -93,7 +93,7 @@
         id: 9
     },
     {
-        image: "../src/assets/Paper-Mario.png",
+        image: "/assets/Paper-Mario.png",
         name: "Paper Mario: The Thousand-Year Door",
         released: "July 22, 2004",
         console: "Nintendo GameCube",
@@ -103,7 +103,7 @@
         id: 10
     },
     {
-        image: "../src/assets/Bioshock.jpeg",
+        image: "/assets/Bioshock.jpeg",
         name: "Bioshock",
         released: "August 21, 2007",
         console: "PlayStation 3, PlayStation 4, Xbox 360, Xbox One, Nintendo Switch, PC, and MAC",
@@ -113,7 +113,7 @@
         id: 11
     },
     {
-        image: "../src/assets/Puyo-Puyo-Tetris.jpeg",
+        image: "/assets/Puyo-Puyo-Tetris.jpeg",
         name: "Puyo Puyo Tetris",
         released: "February 6, 2014",
         console: "Nintendo 3DS, Nintendo WiiU, Nintendo Switch, PlayStation 3, PlayStation 4, Xbox One, and PC",
@@ -123,7 +123,7 @@
         id: 12
     },
     {
-        image: "../src/assets/Yoshi-New-Island.jpeg",
+        image: "/assets/Yoshi-New-Island.jpeg",
         name: "Yoshi's New Island",
         released: "March 14, 2014",
         console: "Nintendo 3DS",
@@ -133,7 +133,7 @@
         id: 13
     },
     {
-        image: "../src/assets/Alien-Isolation.jpeg",
+        image: "/assets/Alien-Isolation.jpeg",
         name: "Alien: Isolation",
         released: "October 6, 2014",
         console: "PlayStation 4",
@@ -143,7 +143,7 @@
         id: 14
     },
     {
-        image: "../src/assets/Resident-Evil.jpeg",
+        image: "/assets/Resident-Evil.jpeg",
         name: "Resident Evil 7",
         released: "January 24, 2017",
         console: "PlayStation 4, Xbox One, and PC",
@@ -153,7 +153,7 @@
         id: 15
     },
     {
-        image: "../src/assets/Horizon-Zero.png",
+        image: "/assets/Horizon-Zero.png",
         name: "Horizon Zero Dawn",
         released: "February 28, 2017",
         console: "PlayStation 4",
@@ -163,7 +163,7 @@
         id: 16
     },
     {
-        image: "../src/assets/Evil-Within.jpeg",
+        image: "/assets/Evil-Within.jpeg",
         name: "The Evil Within 2",
         released: "October 13, 2017",
         console: "PlayStation 3, PlayStation 4, Xbox 360, Xbox One, and PC",
@@ -173,7 +173,7 @@
         id: 17
     },
     {
-        image: "../src/assets/Jurassic-World-Evolution.webp",
+        image: "/assets/Jurassic-World-Evolution.webp",
         name: "Jurassic World Evolution",
         released: "June 12, 2018",
         console: "PlayStation 4, Xbox One",
@@ -183,7 +183,7 @@
         id: 18
     },
     {
-        image: "../src/assets/Super-Mario-Party.jpeg",
+        image: "/assets/Super-Mario-Party.jpeg",
         name: "Super Mario Party",
         released: "October 5, 2018",
         console: "Nintendo Switch",
@@ -246,7 +246,7 @@
 
       <h1 id="top">Game Collection Ratings*</h1>
     
-      <img class="main" src="./assets/Luigi-Yoshi-Mario.jpg" alt="Luigi, Yoshi and Mario">
+      <img class="main" src="assets/Luigi-Yoshi-Mario.jpg" alt="Luigi, Yoshi and Mario">
 
       <p><strong>Bold</strong> is a 10/10 score.</p>
       <p>*This is not a full list.</p>
