@@ -246,7 +246,7 @@
 
       <h1 id="top">Game Collection Ratings*</h1>
     
-      <img class="main" src="assets/Luigi-Yoshi-Mario.jpg" alt="Luigi, Yoshi and Mario">
+      <img class="main" src="Luigi-Yoshi-Mario.jpg" alt="Luigi, Yoshi and Mario">
 
       <p><strong>Bold</strong> is a 10/10 score.</p>
       <p>*This is not a full list.</p>
