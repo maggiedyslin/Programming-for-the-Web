@@ -39,7 +39,7 @@
         console: "Nintendo 64",
         rating: "8/10",
         players: "Up to 4",
-        description: "In addition to the usual gameplay of a snowboarding game, Snowboard Kids adds 'Shots' (special weapons used to attack players) and items which can help the player, hinder other players, or both. The game has nine main courses. Although many of the courses are snowy mountains, some are courses that would be unorthodox for snowboarding in the real world. Such courses include an amusement park, a desert, a vast valley, a dark highway, and a Japanese village during the cherry blossom festival. Each track has a unique shape, containing various obstacles, hazards, and short-cuts.",
+        description: "In addition to the usual gameplay of a snowboarding game, Snowboard Kids adds 'Shots' (special weapons used to attack players) and items which can help the player, hinder other players, or both. The game has nine main courses. Each track has a unique shape, containing various obstacles, hazards, and short-cuts.",
         id: 4
     },
     {
@@ -193,15 +193,15 @@
         id: 19
     }];
 
-    const newGameObj = {
-      image: "",
-      name: "",
-      released: "",
-      console: "",
-      rating: "",
-      players: "",
-      description: ""
-    }
+  const newGameObj = {
+    image: "",
+    name: "",
+    released: "",
+    console: "",
+    rating: "",
+    players: "",
+    description: ""
+  }
 
   const state = reactive({
     gameCollection, 
@@ -246,7 +246,7 @@
 
       <h1 id="top">Game Collection Ratings*</h1>
     
-      <img class="main" src="Luigi-Yoshi-Mario.jpg" alt="Luigi, Yoshi and Mario">
+      <!-- <img class="main-img" src="./Luigi-Yoshi-Mario.jpg" alt="Luigi, Yoshi and Mario"> -->
 
       <p><strong>Bold</strong> is a 10/10 score.</p>
       <p>*This is not a full list.</p>
@@ -355,7 +355,7 @@ body {
     text-align: center;
 }
 
-.main img {
+.main-img {
     max-width: 65%;
 }
 
@@ -390,6 +390,60 @@ img {
 .rating {
     /* background-color: #E6A270; */
     font-weight: bold;
+}
+
+.collection table {
+    border-collapse: collapse;
+    background-color: #A4E384;
+}
+
+.collection thead {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(240, 240, 240);
+    position: sticky;
+    top: 0;
+    background-color: #F57784;
+    border: none;
+}
+
+.collection th, .collection tbody, .collection tr, .collection td {
+    text-align: center;
+    padding: 5px 8px;
+    border: 1px solid black;
+}
+
+/* table */
+
+.gameImage {
+  width: 30%;
+  padding: 5px;
+}
+
+.gameName {
+  width: 10%;
+}
+
+.gameRelease {
+  width: 10%;
+}
+
+.gameConsole {
+ width: 10%;
+}
+
+.gameRating {
+ width: 5%;
+}
+
+.gamePlayers {
+ width: 5%;
+}
+
+.gameDescription {
+  text-align: left;
+  width: 40%;
 }
 
 /* links */
