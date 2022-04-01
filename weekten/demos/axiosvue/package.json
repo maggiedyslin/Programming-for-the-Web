@@ -1,0 +1,15 @@
+{
+  "name": "axiosvue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maggie",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "vue": "^3.2.31"
+  }
+}
