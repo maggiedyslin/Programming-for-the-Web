@@ -9,13 +9,66 @@
 <template>
 
     <div>
-        
-        <h1>Collection List</h1>
 
-        <ItemRow v-for="(games, index) in GamesCollection" :key="index" :game="games" />
+        <table>
+    
+            <thead>
+        
+                <th>Image</th>
+                <th>Name</th>
+                <th>Release Date</th>
+                <th>Console(s)</th>
+                <th>Rating</th>
+                <th>Players</th>
+                <th>Description</th>
+        
+            </thead>
+        
+            <tbody>
+
+                <ItemRow v-for="(games, index) in GamesCollection" :key="index" :game="games" />
+        
+            </tbody>
+    
+      </table>
         
     </div>
-
-
     
 </template>
+
+<style scoped>
+
+    table {
+        border-collapse: collapse;
+        background-color: #A4E384;
+    }
+
+    thead {
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 5px 8px;
+        color: rgb(240, 240, 240);
+        position: sticky;
+        top: 0;
+        background-color: #F57784;
+        border: none;
+    }
+
+    th, tbody {
+        text-align: center;
+        padding: 5px 8px;
+        border: 1px solid black;
+    }
+
+    .odd {
+        background-color: #70B1F8;
+    }
+
+    .rating {
+        /* background-color: #E6A270; */
+        font-weight: bold;
+    }
+
+</style>

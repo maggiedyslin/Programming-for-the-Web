@@ -7,7 +7,7 @@ import NavigationBar from "./components/NavigationBar.vue";
 
 <template>
 
-<div class="template">
+<div class="container">
 
   <NavigationBar /> 
 
@@ -21,6 +21,10 @@ import NavigationBar from "./components/NavigationBar.vue";
 
 <style>
 
-
+    .container {
+        margin: 0 auto;
+        display: block;
+        max-width: 80%;
+    }
 
 </style>

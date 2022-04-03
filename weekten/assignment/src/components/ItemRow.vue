@@ -1,43 +1,33 @@
 <script setup>
 
+    const props = defineProps(["game", "index"])
 
 </script>
 
 
 <template>
     
-    <div class="collection">
+    <div>
 
-        <table>
-    
-            <thead>
-        
-                <th>Image</th>
-                <th>Name</th>
-                <th>Release Date</th>
-                <th>Console(s)</th>
-                <th>Rating</th>
-                <th>Players</th>
-                <th>Description</th>
-        
-            </thead>
-        
-            <tbody>
-        
-                <tr class="gameSelection">
-                    <td class="gameImage"><img v-bind:src="games.image" v-bind:alt="games.name"></td>
-                    <td class="gameName">{{games.name}}</td>
-                    <td class="gameRelease">{{games.released}}</td>
-                    <td class="gameConsole">{{games.console}}</td>
-                    <td class="gameRating">{{games.rating}}</td>
-                    <td class="gamePlayers">{{games.players}}</td>
-                    <td class="gameDescription">{{games.description}}</td>
-                </tr>
-        
-            </tbody>
-    
-      </table>
+        <tr>
+            <td class="gameImage"><img v-bind:src="game.image" v-bind:alt="game.name"></td>
+            <td class="gameName">{{game.name}}</td>
+            <td class="gameRelease">{{game.released}}</td>
+            <td class="gameConsole">{{game.console}}</td>
+            <td class="gameRating">{{game.rating}}</td>
+            <td class="gamePlayers">{{game.players}}</td>
+            <td class="gameDescription">{{game.description}}</td>
+        </tr>
 
     </div>
 
 </template>
+
+<style scoped>
+
+    img {
+        /* width: 800px; */
+        max-width: 100%;
+    }
+
+</style>
