@@ -1,7 +1,5 @@
 <script setup>
 
-    const props = defineProps(['games', 'index']);
-    // console.log('the game', props.games);
 
 </script>
 
@@ -26,9 +24,7 @@
         
             <tbody>
         
-                <tr class="gameSelection" 
-                   :class="{gameSelection: true, odd: index % 2 !== 0,
-                                     rating: games.rating === '10/10'}">
+                <tr class="gameSelection">
                     <td class="gameImage"><img v-bind:src="games.image" v-bind:alt="games.name"></td>
                     <td class="gameName">{{games.name}}</td>
                     <td class="gameRelease">{{games.released}}</td>
@@ -36,7 +32,6 @@
                     <td class="gameRating">{{games.rating}}</td>
                     <td class="gamePlayers">{{games.players}}</td>
                     <td class="gameDescription">{{games.description}}</td>
-                    <td><button type="button" v-on:click="$emit('deleteGame', games)">Delete</button></td>
                 </tr>
         
             </tbody>
