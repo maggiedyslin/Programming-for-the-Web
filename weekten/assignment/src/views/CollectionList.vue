@@ -8,7 +8,7 @@
 
 <template>
 
-    <div>
+    <div id="top">
 
         <table>
     
@@ -24,13 +24,15 @@
         
             </thead>
         
-            <tbody>
+            <tbody class="my-collection">
 
                 <ItemRow v-for="(games, index) in GamesCollection" :key="index" :game="games" />
         
             </tbody>
     
       </table>
+
+      <a href="#top" class="top">Back to Top</a>
         
     </div>
     
@@ -69,6 +71,22 @@
     .rating {
         /* background-color: #E6A270; */
         font-weight: bold;
+    }
+
+    /* links */
+
+    a.top {
+        text-transform: uppercase;
+        text-decoration: none;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #115503;
+    }
+
+    a:hover.top {
+        text-transform: lowercase;
+        text-decoration: none;
+        background-color: #115503;
+        color: white;
     }
 
 </style>

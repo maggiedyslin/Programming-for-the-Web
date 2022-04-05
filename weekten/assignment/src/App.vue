@@ -27,4 +27,18 @@ import NavigationBar from "./components/NavigationBar.vue";
         max-width: 80%;
     }
 
+    body {
+      font-size: 13px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      background-color: rgb(187, 187, 187);
+  }
+
+  a {
+    color: black;
+  }
+
+  a:hover {
+    color: white;;
+  }
+
 </style>
