@@ -38,12 +38,6 @@
             </tbody>
     
       </table>
-
-      <footer>
-
-        <a href="#top" class="top">Back to Top</a>
-
-      </footer>
         
     </div>
     
