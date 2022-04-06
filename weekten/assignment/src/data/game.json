@@ -1,6 +1,6 @@
 [
     {
-      "image": "https://i0.wp.com/snesaday.com/wp-content/uploads/SimCity-FI.png?fit=1024%2C896&ssl=1",
+      "image": "../assets/../assets/SimCity.jpeg",
       "name": "Sim City",
       "released": "February 2, 1989",
       "console": "Super Nintendo Entertainment System",
@@ -10,7 +10,7 @@
       "id": 1
     },
     {
-      "image": "https://ewwnews.com/img/a-sequel-to-kirby-s-dream-course-has-been-released-for-the-nintendo-switch.jpeg",
+      "image": "../assets/../assets/Kirby-Dream-Course.jpeg",
       "name": "Kirby's Dream Course",
       "released": "September 21, 1994",
       "console": "Super Nintendo Entertainment System",
@@ -20,7 +20,7 @@
       "id": 2
     },
     {
-      "image": "https://m.media-amazon.com/images/I/51UiLq541tL.jpg",
+      "image": "../assets/Diddy-Kong-Racing.jpeg",
       "name": "Diddy Kong Racing",
       "released": "October 31, 1997",
       "console": "Nintendo 64, Nintendo DS",
@@ -30,7 +30,7 @@
       "id": 3
     },
     {
-      "image": "https://www.retroplace.com/pics/n64/ingames/50026--snowboard-kids.png",
+      "image": "../assets/Snowboard-Kids.jpeg",
       "name": "Snowboard Kids",
       "released": "December 12, 1997",
       "console": "Nintendo 64",
@@ -40,7 +40,7 @@
       "id": 4
     },
     {
-      "image": "https://n64today.com/wp-content/uploads/2018/11/legend-of-zelda-ocarina-of-time-n64-great-deku-tree-2-1-720x530.jpg",
+      "image": "../assets/Zelda-Ocarina.jpeg",
       "name": "The Legend of Zelda: Ocarina of Time",
       "released": "November 21, 1998",
       "console": "Nintendo 64, Nintendo GameCube, and Nintendo 3DS",
@@ -50,7 +50,7 @@
       "id": 5
     },
     {
-      "image": "https://starwarsblog.starwars.com/wp-content/uploads/2020/03/star-wars-racer-gameplay-03.jpg",
+      "image": "../assets/Star-Wars.png",
       "name": "Star Wars Episode One: Racer",
       "released": "April 30, 1999",
       "console": "Nintendo 64, Nintendo GameBoy Color, Nintendo Switch, Dreamcast, PlayStation 4, Xbox One, PC, and MAC",
@@ -60,7 +60,7 @@
       "id": 6
     },
     {
-      "image": "https://gamingheartscollection.files.wordpress.com/2017/01/pokemon-gold-and-silver.jpg?w=640",
+      "image": "../assets/Pokemon-Gold.webp",
       "name": "Pokemon Gold",
       "released": "November 21, 1999",
       "console": "Gameboy Color",
@@ -70,7 +70,7 @@
       "id": 7
     },
     {
-      "image": "https://www.gamespew.com/wp-content/uploads/2019/04/Final-Fantasy-X-2-1-696x391.jpg",
+      "image": "../assets/Final-Fantasy-X.jpeg",
       "name": "Final Fantasy X",
       "released": "July 19, 2001",
       "console": "PlayStation 2, PlayStation 3, PlayStation 4, and PlayStation Vita",
@@ -80,7 +80,7 @@
       "id": 8
     },
     {
-      "image": "https://n64today.com/wp-content/uploads/2018/10/mario-party-n64-skateboard-scamper.jpg",
+      "image": "../assets/Mario-Party.jpeg",
       "name": "Mario Party 4",
       "released": "October 21, 2002",
       "console": "Nintendo GameCube",
@@ -90,7 +90,7 @@
       "id": 9
     },
     {
-      "image": "https://epiloguegaming.files.wordpress.com/2017/09/2436635-sezhy.jpg?resize=1920%2C1080",
+      "image": "../assets/Paper-Mario.png",
       "name": "Paper Mario: The Thousand-Year Door",
       "released": "July 22, 2004",
       "console": "Nintendo GameCube",
@@ -100,7 +100,7 @@
       "id": 10
     },
     {
-      "image": "https://guides.gamepressure.com/bioshock/gfx/word/529015812.jpg",
+      "image": "../assets/Bioshock.jpeg",
       "name": "Bioshock",
       "released": "August 21, 2007",
       "console": "PlayStation 3, PlayStation 4, Xbox 360, Xbox One, Nintendo Switch, PC, and MAC",
@@ -110,7 +110,7 @@
       "id": 11
     },
     {
-      "image": "https://i.ytimg.com/vi/DDd3vL5Fddc/maxresdefault.jpg",
+      "image": "../assets/Puyo-Puyo-Tetris.jpeg",
       "name": "Puyo Puyo Tetris",
       "released": "February 6, 2014",
       "console": "Nintendo 3DS, Nintendo WiiU, Nintendo Switch, PlayStation 3, PlayStation 4, Xbox One, and PC",
@@ -120,7 +120,7 @@
       "id": 12
     },
     {
-      "image": "https://m.media-amazon.com/images/I/51CF5zw7n1L.jpg",
+      "image": "../assets/Yoshi-New-Island.jpeg",
       "name": "Yoshi's New Island",
       "released": "March 14, 2014",
       "console": "Nintendo 3DS",
@@ -130,7 +130,7 @@
       "id": 13
     },
     {
-      "image": "https://i.pcmag.com/imagery/reviews/02vwXPYeM9i2dsKGWGNxJRQ-1..v1569479834.jpg",
+      "image": "../assets/Alien-Isolation.jpeg",
       "name": "Alien: Isolation",
       "released": "October 6, 2014",
       "console": "PlayStation 4",
@@ -140,7 +140,7 @@
       "id": 14
     },
     {
-      "image": "https://image.api.playstation.com/vulcan/img/rnd/202010/1208/cOdV0ecMU0Cm7jWKcuYLsEwX.jpg",
+      "image": "../assets/Resident-Evil.jpeg",
       "name": "Resident Evil 7",
       "released": "January 24, 2017",
       "console": "PlayStation 4, Xbox One, and PC",
@@ -150,7 +150,7 @@
       "id": 15
     },
     {
-      "image": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/horizon-zero-dawn-gameplay-footage.jpg?q=50&fit=contain&w=960&h=533&dpr=1.5",
+      "image": "../assets/Horizon-Zero.png",
       "name": "Horizon Zero Dawn",
       "released": "February 28, 2017",
       "console": "PlayStation 4",
@@ -160,7 +160,7 @@
       "id": 16
     },
     {
-      "image": "https://cdn.vox-cdn.com/thumbor/fX6xQ8Vg22TiACb3iMwEwtEdU-s=/1400x0/filters:no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/9444587/evil_within_2_review_screen2.jpg",
+      "image": "../assets/Evil-Within.jpeg",
       "name": "The Evil Within 2",
       "released": "October 13, 2017",
       "console": "PlayStation 3, PlayStation 4, Xbox 360, Xbox One, and PC",
@@ -170,7 +170,7 @@
       "id": 17
     },
     {
-      "image": "https://images.gamewatcherstatic.com/image/file/8/e8/91208/jwpcg.jpg",
+      "image": "../assets/Jurassic-World-Evolution.webp",
       "name": "Jurassic World Evolution",
       "released": "June 12, 2018",
       "console": "PlayStation 4, Xbox One",
@@ -180,7 +180,7 @@
       "id": 18
     },
     {
-      "image": "https://umlconnector.com/wp-content/uploads/marioparty-672x372.jpg",
+      "image": "../assets/Super-Mario-Party.jpeg",
       "name": "Super Mario Party",
       "released": "October 5, 2018",
       "console": "Nintendo Switch",

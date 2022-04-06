@@ -7,25 +7,17 @@ import NavigationBar from "./components/NavigationBar.vue";
 
 <template>
 
-<div class="container">
+  <div class="container">
 
-  <NavigationBar /> 
+    <NavigationBar /> 
 
-  <RouterView />
+    <RouterView />
 
-</div>
-
-
+  </div>
 
 </template>
 
 <style>
-
-    .container {
-        margin: 0 auto;
-        display: block;
-        max-width: 80%;
-    }
 
     body {
       font-size: 13px;

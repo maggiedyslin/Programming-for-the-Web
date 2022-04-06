@@ -8,38 +8,25 @@
 
 <template>
 
-    <RouterLink :to="'/collection/'+game.id">
-    
-        <div>
-
-            <tr class="my-collection"
-                :class="{odd: index % 2 !== 0 + 1,
-                rating: game.rating === '10/10'}">
-                <td class="gameImage"><img v-bind:src="game.image" v-bind:alt="game.name"></td>
-                <td class="gameName">{{game.name}}</td>
-                <td class="gameRelease">{{game.released}}</td>
-                <td class="gameConsole">{{game.console}}</td>
-                <td class="gameRating">{{game.rating}}</td>
-                <td class="gamePlayers">{{game.players}}</td>
-                <td class="gameDescription">{{game.description}}</td>
-            </tr>
-
-        </div>
-
-    </RouterLink>
+    <tr class="my-collection"
+        :class="{odd: index % 2 !== 0 + 1,
+        rating: game.rating === '10/10'}">
+        <td class="gameImage">
+            <RouterLink :to="'/collection/'+game.id"><img v-bind:src="game.image" v-bind:alt="game.name"></RouterLink>
+        </td>
+        <td class="gameName">{{game.name}}</td>
+        <td class="gameRelease">{{game.released}}</td>
+        <td class="gameConsole">{{game.console}}</td>
+        <td class="gameRating">{{game.rating}}</td>
+        <td class="gamePlayers">{{game.players}}</td>
+        <td class="gameDescription">{{game.description}}</td>
+    </tr>
 
 </template>
 
 <style scoped>
 
-    /* tr {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-    } */
-
     img {
-        /* width: 800px; */
         max-width: 100%;
     }
 
@@ -60,6 +47,16 @@
     .rating {
         /* background-color: #E6A270; */
         font-weight: bold;
+    }
+
+    th, tbody, tr, td {
+        text-align: center;
+        padding: 5px 8px;
+        border: 1px solid black;
+    }
+
+    .gameDescription {
+        text-align: left;
     }
 
 </style>
