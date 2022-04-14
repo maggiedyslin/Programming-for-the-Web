@@ -1,5 +1,5 @@
-let mySound = [];
 let marioTitle;
+let mySound = [];
 let marioImg;
 // let mySound;
 
@@ -21,13 +21,13 @@ function preload() {
 
 function setup() {
     let cnv = createCanvas(525, 500);
+    marioTitle.play();
     cnv.mousePressed(canvasPressed);
     background(45);
     fill(255);
     textSize(15)
     text('Tap the canvas to listen to more sounds!', 125, 484);
 
-    marioTitle.play();
     image(marioImg, 0, 0);
 }
 
