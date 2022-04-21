@@ -28,11 +28,12 @@ function draw() {
         fill(random(255), random(255), random(255));
         noStroke();
         ellipse(mySinVal, amplifiedTwo / 2, 5);
+        ellipse(mySinValTwo * 400, amplified, 10);
 
         // stroke(random(255), random(255), random(255));
         // line(amplifiedTwo * 4, 100, 100, amplified);
 
-        rect(mySinVal * 100, amplifiedTwo * 2, 25);
+        // rect(mySinVal * 300, amplifiedTwo, 15);
 
         noFill();
         stroke(random(255), random(255), random(255));
