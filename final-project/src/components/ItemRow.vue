@@ -1,7 +1,7 @@
 <script>
 
     import {RouterLink} from "vue-router";
-    // const props = defineProps(["shark", "index"]);
+    const props = defineProps(["shark", "index"]);
 
 </script>
 
