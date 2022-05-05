@@ -39,7 +39,7 @@
 
         <h2>Shops</h2>
 
-            <p>These shops donate to various non-profits that help support stopping shark finning, among various other animals that need help.</p>
+            <p>This shop donates to various non-profits that help support stopping shark finning, among various other animals that need help.</p>
 
             <ul>
                 <li><a href="https://bytesizetreasure.com/">Byte Size Treasure</a></li>
