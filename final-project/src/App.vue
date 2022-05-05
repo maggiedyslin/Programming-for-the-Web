@@ -2,7 +2,6 @@
   
   import { RouterView, RouterLink } from "vue-router";
 
-
 </script>
 
 <template>
@@ -15,9 +14,12 @@
 
                 <ul>
                     <li><RouterLink to="/">Home</RouterLink></li>
-                    <li><RouterLink to="">About</RouterLink></li>
-                    <li><RouterLink to="/blue">Blue</RouterLink></li>
-                    <li><RouterLink to="/shirts">Shirts</RouterLink></li>
+                    <li><RouterLink to="">About</RouterLink>
+                        <ul class="dropdown">
+                            <li><RouterLink to="/blue">Blue</RouterLink></li>
+                            <li><RouterLink to="/shirts">Shirts</RouterLink></li>
+                        </ul>
+                    </li>
                     <li><RouterLink to="/species">Species</RouterLink></li>
                     <li><RouterLink to="/information">Information</RouterLink></li>
                 </ul>
@@ -30,6 +32,12 @@
 
         </main>
 
+        <footer>
+
+            &copy;Maggie Dyslin * Spring 2022 * Programming for the Web - MCAD
+
+        </footer>
+
     </div>
 
 </template>
@@ -37,10 +45,18 @@
 <style>
 
     @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+
+    /* general */
 
     body {
+        background-color: #7A98B0;
         padding: 0;
         margin: 0;
+        font-family: 'Lato', sans-serif;
+        color: white;
+        font-weight: 400;
+        font-size: 14px;
     }
 
     .container {
@@ -48,9 +64,16 @@
         margin: 0 auto;
     }
 
+    p {
+        padding: 0 8px;
+    }
+
+    /* navigation */
+
     nav {
         font-family: 'Bebas Neue';
         font-size: 50px;
+        display: block;
         padding: 10px 0 0;
         top: 100px;
     }
@@ -62,39 +85,110 @@
         padding: 15px 0;
     }
 
-    nav ul, nav ul li {
+    nav ul {
         background-color: #B4E5E0;
         list-style-type: none;
         display: flex;
         flex-direction: row;
+        justify-content: center;
         margin: 0;
-        padding: 0;
-        justify-content: space-between;
     }
 
-    nav ul li a {
-        text-decoration: none;
+    nav ul a {
         color: #325C7E;
-        padding: 5px 25px 0;
+        text-align: center;
+        text-decoration: none;
+        padding: 5px 120px 0;
+        letter-spacing: 1px;
+        display: block;
+
+    }
+
+    nav ul ul li a {
+        padding: 2px 116px;
     }
 
     nav ul li a:hover {
-        color: #325C7E;
-        background-color: white;
+        color: white;
+        background-color: #325C7E;
     }
 
-    body {
-        background-color: #7A98B0;
+    nav ul ul {
+        position: absolute;
+        display: none;
     }
+
+    nav ul li:hover > ul {
+        display: block;
+        padding: 0;
+    }
+
+    /* main */
 
     main {
         background-color: #325C7E;
-        top: 0;
         width: 100%;
         max-width: 1100px;
         margin: 0 auto;
+        padding: 8px;
+    }
+
+    /* regular lists */
+
+    ul {
+        list-style-type: square;
+    }
+
+    /* footer */
+
+    footer {
+        background-color: #325C7E;
+        border-top: 2px solid #B27C7B;
+        color: white;
+        font-weight: 300;
+        text-align: center;
+        width: 100%;
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 8px;
+    }
+
+    /* heading */
+
+    h1 {
+        color: #E88F7A;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 40px;
+        text-transform: uppercase;
+        border-bottom: 1px solid;
         padding: 0;
-        border: 2px solid black;
+    }
+
+    h2 {
+        color: #B27C7B;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+
+    /* imgs */
+
+    img {
+        max-width: 100%;
+    }
+
+    /* Links */
+
+    a {
+        text-decoration: none;
+        color: #B4E5E0;
+        font-weight: 300;
+    }
+
+    a:hover {
+        letter-spacing: 2px;
+        color: #325C7E;
+        background-color: #B4E5E0;
+        font-weight: 400;
     }
 
 </style>
