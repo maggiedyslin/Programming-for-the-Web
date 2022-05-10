@@ -2,7 +2,7 @@
 
     <div class="container">
 
-        <img src="https://www.surfertoday.com/images/jamp/page/deep-blue-shark.jpg" alt="Deep Blue Shark with Diver">
+        <img src="/assets/deep-blue-shark.jpeg" alt="Deep Blue Shark with Diver">
 
         <h1>Deep Blue</h1>
 
