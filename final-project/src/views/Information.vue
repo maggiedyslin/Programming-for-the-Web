@@ -20,7 +20,7 @@
                 </li>
             </ul>
 
-        <h2>Places to donate</h2>
+        <h2>Donate / More Information</h2>
 
             <ul>
                 <li><a href="https://oceana.org/">Oceana</a></li>

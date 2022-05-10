@@ -53,7 +53,7 @@
 
     thead {
         background-color: #E88F7A;
-        font-size: 15px;
+        font-size: 25px;
         font-weight: bold;
         text-transform: uppercase;
         position: sticky;
@@ -62,10 +62,6 @@
 
     img {
         width: 50%;
-    }
-
-    img a:hover {
-        background-color: none;
     }
 
     .species {

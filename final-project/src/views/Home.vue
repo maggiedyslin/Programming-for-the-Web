@@ -6,19 +6,37 @@
 
     <div class="container">
 
-        <!-- <img src="../assets/whale-shark.jpeg" alt="Whale Shark"> -->
+        <img src="../assets/deep-blue-shark-two.webp" alt="Whale Shark">
 
-        <h1>Home</h1>
+        <h1>Welcome</h1>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lectus sit amet est placerat in egestas erat. Erat pellentesque adipiscing commodo elit at imperdiet dui accumsan sit. Ante in nibh mauris cursus mattis molestie a iaculis at. Eu non diam phasellus vestibulum lorem. Sem integer vitae justo eget magna fermentum iaculis eu non. Fringilla urna porttitor rhoncus dolor purus non enim praesent elementum. Amet nulla facilisi morbi tempus iaculis urna id volutpat lacus. Sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper eget. Egestas sed sed risus pretium quam vulputate dignissim. Orci porta non pulvinar neque.</p>
+        <p><em>Deep Blue</em> - seen above - is one of the largest female sharks ever recorded, and was first spotted in Mexico in 2014 by a Mauricio Hoyos Padilla. She has been featured a few times on Discovery Channel's Shark Week. She is massive, weighing in at about 20 tons. She is the inspiration behind <em>Deep Blue</em>, where eventually, t-shirts and various other items will be created to help support organizations that bring awareness to shark finning. The goal of this company is to bring to light how inhumane shark finning is, and how dangerous it is to the ocean's shark populations - we need the sharks, much like we need the bees.</p>
 
-        <p>Sed euismod nisi porta lorem mollis aliquam ut porttitor. Pellentesque sit amet porttitor eget dolor morbi non. Nulla porttitor massa id neque. Leo integer malesuada nunc vel risus commodo. Id aliquet risus feugiat in. At ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget. Egestas pretium aenean pharetra magna. Amet mauris commodo quis imperdiet massa tincidunt nunc. At consectetur lorem donec massa sapien. Diam maecenas ultricies mi eget mauris.</p>
+        <h2>What is shark finning?</h2>
 
-        <p>Egestas quis ipsum suspendisse ultrices gravida. Amet massa vitae tortor condimentum. Mollis nunc sed id semper risus in hendrerit. Nulla at volutpat diam ut venenatis tellus in metus. Elit ut aliquam purus sit amet. Congue nisi vitae suscipit tellus mauris. Sit amet consectetur adipiscing elit. Nullam non nisi est sit. Diam donec adipiscing tristique risus nec feugiat in fermentum. Massa id neque aliquam vestibulum. Etiam non quam lacus suspendisse faucibus interdum posuere lorem. Aenean et tortor at risus viverra. In ornare quam viverra orci sagittis eu volutpat odio facilisis. Rhoncus dolor purus non enim praesent elementum. Imperdiet massa tincidunt nunc pulvinar sapien et. Elementum sagittis vitae et leo duis ut.</p>
+        <p>Shark finning is the inhumane process of cutting off all of a shark's fins; they're eventually tossed back into the ocean, where they're left to die. They either suffocate due to not being able to swim, passing water through their gills; die of blood loss; or are eaten by another predator. This devastating practice is used for dishes such as <em>Shark Fin Soup</em>.</p>
 
-        <p>Diam maecenas sed enim ut sem viverra aliquet eget sit. Sociis natoque penatibus et magnis dis. Tincidunt eget nullam non nisi est sit amet facilisis magna. Bibendum est ultricies integer quis. Viverra tellus in hac habitasse platea dictumst vestibulum rhoncus. Aliquam faucibus purus in massa tempor nec feugiat. Mattis pellentesque id nibh tortor id aliquet lectus proin nibh. Aliquet lectus proin nibh nisl condimentum id venenatis. Nulla facilisi etiam dignissim diam quis enim lobortis scelerisque. Eget gravida cum sociis natoque penatibus et magnis dis. Gravida quis blandit turpis cursus in hac habitasse. Ut diam quam nulla porttitor massa id neque. Est ante in nibh mauris cursus mattis molestie. Sapien eget mi proin sed libero enim sed faucibus turpis. A diam sollicitudin tempor id eu. Volutpat sed cras ornare arcu dui vivamus arcu felis bibendum. Netus et malesuada fames ac turpis. Ultricies leo integer malesuada nunc vel risus commodo viverra maecenas. Sed faucibus turpis in eu mi. Pellentesque habitant morbi tristique senectus et netus et.</p>
+        <h2>What is shark fin soup?</h2>
 
-        <p>Id porta nibh venenatis cras sed felis eget. Faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam. Eleifend quam adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus. A pellentesque sit amet porttitor eget dolor morbi non arcu. Posuere morbi leo urna molestie at elementum eu. Bibendum arcu vitae elementum curabitur vitae nunc. Massa massa ultricies mi quis hendrerit. Viverra tellus in hac habitasse. Quam nulla porttitor massa id neque aliquam vestibulum morbi. Penatibus et magnis dis parturient montes nascetur ridiculus mus.</p>
+        <p>Shark fin soup originated during the Song dynasty in China. The imperial family and court members were served a dish of shark fins - which can include a variety of shark species. The dish was meant to showcase power, wealth, and generosity. The raw fins are processed by removing the skin and denticles, and then trimming them into shapes and bleaching them to a more desirable coloration. The fins are then used in a soup, <em>Shark Fin Soup</em>, which is created with a broth. The fins have no flavor - that comes from the broth.</p>
+
+        <h2>So, what's the big deal?</h2>
+
+        <p>Sharks play an important role to the ecosystem. They are considered an apex predator, and maintain the species below them in the food chain. They are an indicator for ocean health by removing the weak and sick, while also keeping the balance with competitors to ensure various specie diversity. They indirectly maintain seagrass and coral reef habitats by shifting their prey's spatial habitat, which alters feeding strategy and diets of other species.</p>
+
+        <p>Essentially, if sharks are completely eliminated, it will have a ripple effect: for example, the larger predatory fish (groupers) increase in abundance and feed off of the herbivores. With less herbivores, macroalgae expands and coral can no longer compete, which shifts the ecosystem to one of algae dominance. This affects the survival of the reef system.</p>
+
+        <h3>Resources</h3>
+
+        <p>Various resources have been used for this project. Information has been found from various websites, including, but not limited to:</p>
+
+        <ul>
+            <li><a href="https://saveourseas.com/why-are-sharks-important/">Save Our Seas Foundation</a></li>
+            <li><a href="https://europe.oceana.org/en/importance-sharks-0">Oceana</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Main_Page">Wikipedia</a></li>
+            <li><a href="https://www.theguardian.com/science/blog/2016/mar/10/shark-fin-soup-a-dangerous-delicacy-for-humans-and-sharks-alike">The Guardian</a></li>
+
+        </ul>
 
     </div>
 
@@ -26,6 +44,10 @@
 
 <style scoped>
 
-    
+    img {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
 
 </style>

@@ -8,29 +8,25 @@
 
     <div class="container">
 
-            <nav>
+        <nav>
 
-                <img src="/src/assets/deep-blue-logo.svg" alt="Deep Blue Logo">
+            <img src="/src/assets/deep-blue-logo.svg" alt="Deep Blue Logo">
 
-                <ul>
-                    <li><RouterLink to="/">Home</RouterLink></li>
-                    <li><RouterLink to="">About</RouterLink>
-                        <ul class="dropdown">
-                            <li><RouterLink to="/blue">Blue</RouterLink></li>
-                            <li><RouterLink to="/shirts">Shirts</RouterLink></li>
-                        </ul>
-                    </li>
-                    <li><RouterLink to="/species">Species</RouterLink></li>
-                    <li><RouterLink to="/information">Information</RouterLink></li>
-                </ul>
+            <ul>
+                <li><RouterLink to="/">Home</RouterLink></li>
+                <li><RouterLink to="">About</RouterLink>
+                    <ul class="dropdown">
+                        <li><RouterLink to="/blue">Blue</RouterLink></li>
+                        <li><RouterLink to="/shirts">Shirts</RouterLink></li>
+                    </ul>
+                </li>
+                <li><RouterLink to="/species">Species</RouterLink></li>
+                <li><RouterLink to="/information">Info</RouterLink></li>
+            </ul>
 
-            </nav>
+        </nav>
 
-        <main>
-
-            <RouterView />
-
-        </main>
+        <RouterView />
 
         <footer>
 
@@ -60,7 +56,9 @@
     }
 
     .container {
-        max-width: 100%;
+        background-color: #325C7E;
+        max-width: 1100px;
+        width: 100%;
         margin: 0 auto;
     }
 
@@ -71,11 +69,12 @@
     /* navigation */
 
     nav {
+        background-color: #7A98B0;
         font-family: 'Bebas Neue';
-        font-size: 50px;
+        font-size: 40px;
         display: block;
         padding: 10px 0 0;
-        top: 100px;
+        margin: 0;
     }
 
     nav img {
@@ -91,6 +90,7 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
+        padding: 0;
         margin: 0;
     }
 
@@ -98,39 +98,31 @@
         color: #325C7E;
         text-align: center;
         text-decoration: none;
-        padding: 5px 120px 0;
+        padding: 5px 90px 0;
         letter-spacing: 1px;
         display: block;
 
     }
 
     nav ul ul li a {
-        padding: 2px 116px;
+        padding: 2px 87px;
     }
 
     nav ul li a:hover {
         color: white;
         background-color: #325C7E;
+        letter-spacing: 1px;
     }
 
     nav ul ul {
         position: absolute;
         display: none;
+        padding: 0;
     }
 
     nav ul li:hover > ul {
         display: block;
         padding: 0;
-    }
-
-    /* main */
-
-    main {
-        background-color: #325C7E;
-        width: 100%;
-        max-width: 1100px;
-        margin: 0 auto;
-        padding: 8px;
     }
 
     /* regular lists */
@@ -161,13 +153,21 @@
         font-size: 40px;
         text-transform: uppercase;
         border-bottom: 1px solid;
-        padding: 0;
+        padding: 0 8px;
     }
 
     h2 {
         color: #B27C7B;
         font-size: 20px;
         text-transform: uppercase;
+        padding: 0 8px;
+    }
+
+    h3 {
+        color: #B4E5E0;
+        font-size: 15px;
+        text-transform: uppercase;
+        padding: 0 8px;
     }
 
     /* imgs */
