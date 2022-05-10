@@ -25,6 +25,13 @@
 
         <p>Another point of this business is to be as eco-friendly as possible. Plastics will be used as little as possible (or not at all, if it can be helped), and sustainable packaging will be used. Plastics are polluting the oceans, ending up in whale stomachs, wrapped around turtle necks or inside their noses - it's devastating to such a delicate ecosystem, and change is needed.</p>
 
+        <div class="tshirtImg">
+
+            <img src="/assets/TShirt-Sample.jpg" alt="Sample T-Shirt">
+            <img src="/assets/TShirt-Sample-Two.jpg" alt="Second Sample T-Shirt">
+
+        </div>
+
     </div>
 
 </template>

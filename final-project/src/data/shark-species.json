@@ -1,6 +1,6 @@
 [
     {
-        "image": "../src/assets/great-white-shark.jpeg",
+        "image": "assets/great-white-shark.jpeg",
         "species": "Great White Shark",
         "otherName": "White Shark; White Pointer; Great White",
         "scientific": "Carcharodon carcharias",
@@ -12,7 +12,7 @@
         "id": 1
     },
     {
-        "image": "../src/assets/whale-shark.jpeg",
+        "image": "assets/whale-shark.jpeg",
         "species": "Whale Shark",
         "otherName": "Endangered",
         "scientific": "Rhincodon Typus",
@@ -24,7 +24,7 @@
         "id": 2
     },
     {
-        "image": "../src/assets/basking-shark.jpeg",
+        "image": "assets/basking-shark.jpeg",
         "species": "Basking Shark",
         "otherName": "",
         "scientific": "Cetorhinus Maximus",
@@ -36,7 +36,7 @@
         "id": 3
     },
     {
-        "image": "../src/assets/hammerhead-shark.jpeg",
+        "image": "assets/hammerhead-shark.jpeg",
         "species": "Hammerhead Shark; includes Smooth, Great, and Scalloped",
         "otherName": "",
         "scientific": "Sphyrna Lewini (Scalloped), Sphyrna Zygaena (Smooth), Sphyrna Mokarran (Great)",
@@ -48,7 +48,7 @@
         "id": 4
     },
     {
-        "image": "../src/assets/thresher-shark.jpeg",
+        "image": "assets/thresher-shark.jpeg",
         "species": "Thresher Shark",
         "otherName": "",
         "scientific": "Alopias",
@@ -60,7 +60,7 @@
         "id": 5
     },
     {
-        "image": "../src/assets/oceanic-white-tip.webp",
+        "image": "assets/oceanic-white-tip.webp",
         "species": "Oceanic White Tip",
         "otherName": "Brown Milbert's sand bar shark; Brown shark; Lesser White shark; Nigano shark; Oceanic White-Tipped Whaler; Silvertip shark",
         "scientific": "Carcharhinus Longimanus",
@@ -72,7 +72,7 @@
         "id": 6
     },
     {
-        "image": "../src/assets/silky-shark.jpeg",
+        "image": "assets/silky-shark.jpeg",
         "species": "Silky Sharks",
         "otherName": "Blacksopt shark; Grey Whaler Shark; Olive Shark, Ridgeback shark; Sickle shark; Sickle-shaped shark; Sickle Silk shark",
         "scientific": "Carcharhinus Falciformis",
@@ -84,7 +84,7 @@
         "id": 7
     },
     {
-        "image": "../src/assets/blue-shark.jpeg",
+        "image": "assets/blue-shark.jpeg",
         "species": "Blue Sharks",
         "otherName": "Great Blue Shark",
         "scientific": "Prionace Glauca",
