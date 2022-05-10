@@ -10,7 +10,7 @@
 
         <nav>
 
-            <img src="/src/assets/deep-blue-logo.svg" alt="Deep Blue Logo">
+            <img src="/assets/deep-blue-logo.svg" alt="Deep Blue Logo">
 
             <ul>
                 <li><RouterLink to="/">Home</RouterLink></li>

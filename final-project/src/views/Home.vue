@@ -1,4 +1,4 @@
-<script>
+<script setup>
 
 </script>
 
@@ -6,7 +6,7 @@
 
     <div class="container">
 
-        <img src="../assets/deep-blue-shark-two.webp" alt="Whale Shark">
+        <img src="/assets/deep-blue-shark-two.webp" alt="Deep Blue">
 
         <h1>Welcome</h1>
 

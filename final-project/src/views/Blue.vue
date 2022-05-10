@@ -1,14 +1,8 @@
-<script>
-
-
-</script>
-
-
 <template>
 
     <div class="container">
 
-        <img src="../assets/deep-blue-shark-three.jpg" alt="Deep Blue Shark with Diver">
+        <img src="/assets/deep-blue-shark-three.jpg" alt="Deep Blue Shark with Diver">
 
         <h1>Deep Blue</h1>
 
