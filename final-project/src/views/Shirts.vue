@@ -25,16 +25,6 @@
 
         <p>Another point of this business is to be as eco-friendly as possible. Plastics will be used as little as possible (or not at all, if it can be helped), and sustainable packaging will be used. Plastics are polluting the oceans, ending up in whale stomachs, wrapped around turtle necks or inside their noses - it's devastating to such a delicate ecosystem, and change is needed.</p>
 
-        <p><em>* Various designs not shown.<br>
-        ** This business is still currently in the works. T-Shirt designs are basic but will be expanded upon later on.</em></p>
-
-        <div class="tshirtImg">
-
-            <img src="/assets/TShirt-Sample.jpg" alt="V-Neck grey T-Shirt mockup">
-            <img src="/assets/TShirt-Sample-Two.jpg" alt="Bright blue gradient T-Shirt mockup">
-
-        </div>
-
     </div>
 
 </template>

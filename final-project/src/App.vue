@@ -1,6 +1,7 @@
 <script setup>
   
-  import { RouterView, RouterLink } from "vue-router";
+    import { RouterView, RouterLink } from "vue-router";
+    const blueLogo = {image: "/assets/deep-blue-logo.svg"}
 
 </script>
 
@@ -10,7 +11,7 @@
 
         <nav>
 
-            <img src="/assets/deep-blue-logo.svg" alt="Deep Blue Logo">
+            <img :src="blueLogo.image" alt="Deep Blue Logo">
 
             <ul>
                 <li><RouterLink to="/">Home</RouterLink></li>

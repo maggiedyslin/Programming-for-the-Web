@@ -1,12 +1,8 @@
-<script setup>
-
-</script>
-
 <template>
 
     <div class="container">
 
-        <img src="/assets/deep-blue-shark-two.webp" alt="Deep Blue">
+        <img src="https://ftw.usatoday.com/wp-content/uploads/sites/90/2019/01/deepbluemohler-2.jpg?w=1000&h=599&crop=1" alt="Deep Blue">
 
         <h1>Welcome</h1>
 
