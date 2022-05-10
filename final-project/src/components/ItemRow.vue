@@ -1,28 +1,37 @@
-<script>
+<script setup>
 
-    import {RouterLink} from "vue-router";
-    const props = defineProps(["shark", "index"]);
+    const props = defineProps(['shark', 'index']);
+
+    // console.log('the item, ', props.shark);
 
 </script>
 
 <template>
     
-    <tr class="species-list">
-        <!-- <td class="sharkImage">
-            <RouterLink :to="'/collection/'+shark.id"><img v-bind:src="shark.image" v-bind:alt="shark.name"></RouterLink>
-        </td> -->
-        <td class="sharkName">{{shark.name}}</td>
-        <td class="sharkSpecies">{{shark.species}}</td>
-        <td class="sharkScientific">{{shark.Scientific}}</td>
-        <td class="sharkSize">{{shark.Size}}</td>
-        <td class="sharkEndangerment">{{shark.Endangerment}}</td>
-        <td class="sharkDescription">{{shark.description}}</td>
+    <tr :class="{mySharkApp: true, odd: index % 2 !== 0,
+                second: shark.endangerment === 'red',
+                third: shark.endangerment === 'orange',
+                fourth: shark.endangerment === 'yellow',
+                fifth: shark.endangerment === 'green'}">
+
+        <td class="image">
+            <RouterLink :to="'/species/'+shark.id"><img :src="shark.image" :alt="shark.species"></RouterLink>
+        </td>
+        <td class="species">{{shark.species}}</td>
+        <td class="endangerment">{{shark.endangerment}}</td>
+
     </tr>
 
 </template>
 
 <style scoped>
 
+    .description {
+        text-align: left;
+    }
 
+    .image:hover {
+        background-color: none;
+    }
 
 </style>

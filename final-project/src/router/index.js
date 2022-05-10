@@ -2,8 +2,8 @@ import { createRouter, createWebHashHistory } from 'vue-router';
 import Home from '../views/Home.vue';
 import Blue from '../views/Blue.vue';
 import Shirts from '../views/Shirts.vue';
-import Species from '../views/Species.vue';
 import SpeciesList from '../views/SpeciesList.vue';
+import SpeciesDetail from '../views/SpeciesDetail.vue';
 import Information from '../views/Information.vue';
 
 const router = createRouter({
@@ -25,19 +25,19 @@ const router = createRouter({
       component: Shirts
     },
     {
-      path: '/species',
-      name: 'species',
-      component: Species
-    },
-    {
-      path: "/species/:id",
-      name: "species-list",
-      component: SpeciesList
-    },
-    {
       path: '/information',
       name: 'information',
       component: Information
+    },
+    {
+      path: '/species',
+      name: 'species',
+      component: SpeciesList
+    },
+    {
+      path: "/species/:id",
+      name: "species-detail",
+      component: SpeciesDetail
     }
   ]
 })

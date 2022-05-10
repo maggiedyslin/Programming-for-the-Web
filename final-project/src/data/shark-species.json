@@ -1,6 +1,6 @@
 [
     {
-        "image": "",
+        "image": "../src/assets/great-white-shark.jpeg",
         "species": "Great White Shark",
         "scientific": "Carcharodon carcharias",
         "size": "varies",
@@ -9,7 +9,7 @@
         "id": 1
     },
     {
-        "image": "",
+        "image": "../src/assets/whale-shark.jpeg",
         "species": "Whale Shark",
         "scientific": "Rhincodon Typus",
         "size": "varies",
@@ -18,7 +18,7 @@
         "id": 2
     },
     {
-        "image": "",
+        "image": "../src/assets/basking-shark.jpeg",
         "species": "Basking Shark",
         "scientific": "Cetorhinus Maximus",
         "size": "varies",
@@ -27,7 +27,7 @@
         "id": 3
     },
     {
-        "image": "",
+        "image": "../src/assets/hammerhead-shark.jpeg",
         "species": "Hammerhead Shark; includes Smooth, Great, and Scalloped",
         "scientific": "Sphyrna Lewini (Scalloped), Sphyrna Zygaena (Smooth), Sphyrna Mokarran (Great)",
         "size": "varies",
@@ -36,7 +36,7 @@
         "id": 4
     },
     {
-        "image": "",
+        "image": "../src/assets/thresher-shark.jpeg",
         "species": "Thresher Shark",
         "scientific": "",
         "size": "varies",
@@ -45,7 +45,7 @@
         "id": 5
     },
     {
-        "image": "",
+        "image": "../src/assets/oceanic-white-tip.webp",
         "species": "Oceanic White Tip",
         "scientific": "",
         "size": "varies",
@@ -54,7 +54,7 @@
         "id": 6
     },
     {
-        "image": "",
+        "image": "../src/assets/silky-shark.jpeg",
         "species": "Silky Sharks",
         "scientific": "",
         "size": "varies",
@@ -63,7 +63,7 @@
         "id": 7
     },
     {
-        "image": "",
+        "image": "../src/assets/blue-shark.jpeg",
         "species": "Blue Sharks",
         "scientific": "",
         "size": "varies",
